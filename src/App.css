@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+	padding: 0;
+	margin: 0;
+	appearance: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: "latoblack";
+	src: url("../src/assets/fonts/lato-black-webfont.woff") format("woff2"),
+		url("../src/assets/fonts/lato-black-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+	font-family: "latobold";
+	src: url("../src/assets/fonts/lato-bold-webfont.woff2") format("woff2"),
+		url("../src/assets/fonts/lato-bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+	font-family: "latolight";
+	src: url("../src/assets/fonts/lato-light-webfont.woff2") format("woff2"),
+		url("../src/assets/fonts/lato-light-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+	font-family: "latolight_italic";
+	src: url("../src/assets/fonts/lato-lightitalic-webfont.woff2")
+			format("woff2"),
+		url("../src/assets/fonts/lato-lightitalic-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+	font-family: "latoregular";
+	src: url("../src/assets/fonts/lato-regular-webfont.woff2") format("woff2"),
+		url("../src/assets/fonts/lato-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "latohairline";
+	src: url("../src/assets/fonts/lato-thin-webfont.woff2") format("woff2"),
+		url("../src/assets/fonts/lato-thin-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: latoregular;
 }
