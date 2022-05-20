@@ -53,6 +53,20 @@
 	font-style: normal;
 }
 
-h1 {
+body {
 	font-family: latoregular;
+}
+
+.wrapper {
+	width: 85%;
+	max-width: 1480px;
+	margin: 0 auto;
+}
+img {
+	display: block;
+	width: 100%;
+}
+ul,
+ol {
+	list-style: none;
 }
